@@ -5,6 +5,7 @@ xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH=$PATH:/opt/homebrew/bin
+brew install --cask cakebrew
 brew install mas
 brew install --cask zed
 brew install --cask warp
